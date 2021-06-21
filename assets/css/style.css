@@ -1,0 +1,160 @@
+.bg-image {
+    background-image: url(../images/bg-image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+}
+
+.nav-bar {
+    display: flex;
+    list-style-type: none;
+}
+.nav-bar > a {
+    margin-left: 20px !important;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.nav-container {
+    top: fixed;
+}
+
+.main-heading {
+    margin: 250px auto;
+}
+
+.title {
+    color: #FF5733;
+}
+
+*:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-main:hover {
+background-color: #000;
+color: #fff;
+transition: ease-in 400ms;
+}
+
+
+/* ---------------------media queries */
+
+@media(max-width: 425px) {
+.title {
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 30px !important;
+    }
+
+    .title-heading {
+        font-size: 18px !important;
+    }
+
+    .btn-main {
+        padding: 2px 5px !important;
+    }
+
+    .btn-container {
+        padding-left: 30px !important;
+    }
+}
+
+
+/* ------------------------ profile page */
+
+.margin-top {
+    margin-top: 100px !important;
+}
+.skills-container {
+    width: 60%;
+}
+
+.skills-bar {
+    max-width: 400px !important;
+    margin-left: 30px !important;
+}
+
+.row {
+    --bs-gutter-x: none !important
+}
+
+.experience-title {
+    font-weight: 600;
+}
+
+.portfolio-image {
+    background-image: url(../images/personal-profile.png);
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    object-fit: contain;
+    height: 35vh;
+    width: 38vw;
+    overflow-y: hidden; 
+    cursor: pointer;
+}
+
+@media(max-width: 768px) {
+    .skills-container {
+        width: 80%;
+    }
+
+    .portfolio-image {
+        height: 35vh;
+        width: 50vw;
+    }
+}
+
+@media(max-width: 425px) {
+    .skills-container {
+        width: 70%;
+    }
+    .soft-skills {
+        padding: 0px !important;
+        text-align: left !important;
+        width: 150px !important;
+    }
+    .portfolio-image {
+        height: 35vh;
+        width: 60vw;
+    }
+
+    .education {
+        max-width: 100%;
+   
+    }
+}
+
+/* --------------------info page */
+
+.education {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+@media(max-width: 425px) {
+    
+    .education {
+        max-width: 80%;
+   
+    }
+}
+
+/* --------------------footer */
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.footer-links > a {
+    margin-left: 20px !important;
+    padding-top: 10px;
+    text-decoration: none;
+}
