@@ -25,7 +25,7 @@
     max-width: 40%;
     text-align: justify;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
+    font-size: x-large;
 }
 
 .landing-social {
@@ -40,12 +40,14 @@
     justify-content: space-between;
     padding-left: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: x-large
+    font-size: x-large;
 }
+
 .nav-bar > a {
     margin-left: 0px !important;
     padding-top: 10px;
     text-decoration: none;
+    color: black;
 }
 
 .nav-bar > a:first-child {
@@ -61,6 +63,8 @@
     padding-left: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: x-large;
+    padding-bottom: 10px;
+    color: black;
 }
 
 .nav-container {
